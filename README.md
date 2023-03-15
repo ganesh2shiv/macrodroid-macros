@@ -2,18 +2,21 @@
 
 Some useful utility macros for the [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) Android app.
 
-|     | Macro           | Description                                                          |
-|:---:|:----------------|:---------------------------------------------------------------------|
-|  1  | Intruder Photo  | Take photo if phone unlock fails and send SMS                        |
-|  2  | Battery Monitor | Voice alarm for battery LOW/FULL status                              |
-|  3  | Auto GPS OFF    | Auto switch OFF GPS after a timeout on launching user specified apps |
+|   | Name                                             | Description                                                                                                                                                                                                                           |
+|---|:-------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | [Intruder Photo](/macros/Intruder_Photo.macro)   | Take photo if phone unlock fails and send SMS.                                                                                                                                                                                        |
+| 2 | [Battery Monitor](/macros/Battery_Monitor.macro) | Voice alarm for battery low/full status. I made it for my ageing mother as she has difficulty with reading, it can be used by anyone who struggles with using a phone.                                                                |
+| 3 | [Auto GPS OFF](/macros/Auto_GPS_OFF.macro)       | Auto switch off GPS after a timeout on launching user specified apps. I made it to prevent unnecessary battery drain by certain apps (like WFH check-in apps) that require GPS only briefly but leave it turned on in the background. |
+
+<br/>
+(Pro Tip: To block ads in all apps, use "dns.adguard.com" as designated private DNS in your phone settings)
 
 ## Screenshots
 
 <p align="center">
-    <img style="width:33%" src="/art/01.jpg">
-    <img style="width:33%" src="/art/02.jpg">
-    <img style="width:33%" src="/art/03.jpg">
+    <img style="width:30%" src="/art/01.jpg">
+    <img style="width:30%" src="/art/02.jpg">
+    <img style="width:30%" src="/art/03.jpg">
 </p>
 
 ## License
