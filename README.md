@@ -2,12 +2,18 @@
 
 Some useful utility macros for the [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) Android app.
 
+|     | Macro           | Description                                                          |
+|:---:|:----------------|:---------------------------------------------------------------------|
+|  1  | Intruder Photo  | Take photo if phone unlock fails and send SMS                        |
+|  2  | Battery Monitor | Voice alarm for battery LOW/FULL status                              |
+|  3  | Auto GPS OFF    | Auto switch OFF GPS after a timeout on launching user specified apps |
+
 ## Screenshots
 
 <p align="center">
-    <img style="width:30%" src="/art/01.jpg">
-    <img style="width:30%" src="/art/02.jpg">
-    <img style="width:30%" src="/art/03.jpg">
+    <img style="width:33%" src="/art/01.jpg">
+    <img style="width:33%" src="/art/02.jpg">
+    <img style="width:33%" src="/art/03.jpg">
 </p>
 
 ## License
