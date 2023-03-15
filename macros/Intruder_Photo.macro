@@ -42,7 +42,7 @@
 	"m_category": "Security",
 	"m_constraintList": [],
 	"m_description": "Take photo if phone unlock fails and send SMS",
-	"m_descriptionOpen": false,
+	"m_descriptionOpen": true,
 	"m_enabled": true,
 	"m_excludeLog": false,
 	"m_headingColor": 0,
