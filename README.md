@@ -1,6 +1,14 @@
 # MacroDroid Macros
 
-Some useful utility macros for the MacroDroid Android app.
+Some useful utility macros for the [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) Android app.
+
+## Screenshots
+
+<p align="center">
+    <img style="width:30%" src="/art/01.jpg">
+    <img style="width:30%" src="/art/02.jpg">
+    <img style="width:30%" src="/art/03.jpg">
+</p>
 
 ## License
 
