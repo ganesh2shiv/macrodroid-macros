@@ -1,0 +1,60 @@
+{
+	"disabledTimestamp": 0,
+	"exportedActionBlocks": [],
+	"forceEvenIfNotEnabledTimestamp": 0,
+	"globalForceIfNotEnabled": false,
+	"hasBeenDisabled": false,
+	"isActionBlock": false,
+	"isBeingImported": false,
+	"isClonedInstance": false,
+	"isFavourite": false,
+	"lastEditedTimestamp": 1677860476774,
+	"localVariables": [],
+	"m_GUID": -8614973058081240665,
+	"m_actionList": [{
+		"m_flashOption": 0,
+		"m_showIcon": false,
+		"m_useFrontCamera": true,
+		"pathName": "primary:DCIM/Camera",
+		"pathUri": "content://com.android.externalstorage.documents/tree/primary%3ADCIM%2FCamera",
+		"m_SIGUID": -9217747464226276482,
+		"m_classType": "TakePictureAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"m_addToMessageLog": false,
+		"m_contact": {
+			"m_id": "Hardwired_Number",
+			"m_lookupKey": "Hardwired_Number",
+			"m_name": "[Select Number]"
+		},
+		"m_messageContent": "Phone unlock intruder event triggered!",
+		"m_number": "+91 9xxxxxxxxx",
+		"m_prePopulate": false,
+		"m_simId": 3,
+		"m_SIGUID": -6403487293093818949,
+		"m_classType": "SendSMSAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}],
+	"m_category": "Security",
+	"m_constraintList": [],
+	"m_description": "Take photo if phone unlock fails and send SMS",
+	"m_descriptionOpen": false,
+	"m_enabled": true,
+	"m_excludeLog": false,
+	"m_headingColor": 0,
+	"m_isOrCondition": false,
+	"m_name": "Intruder Photo",
+	"m_triggerList": [{
+		"m_numFailures": 1,
+		"m_timeIndex": 0,
+		"m_SIGUID": -7198980697869497830,
+		"m_classType": "FailedLoginTrigger",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}]
+}
