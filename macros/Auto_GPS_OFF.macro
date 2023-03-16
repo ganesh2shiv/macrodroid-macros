@@ -8,9 +8,9 @@
 	"isBeingImported": false,
 	"isClonedInstance": false,
 	"isFavourite": false,
-	"lastEditedTimestamp": 1678854337666,
+	"lastEditedTimestamp": 1678937158937,
 	"localVariables": [],
-	"m_GUID": -6031401804032306475,
+	"m_GUID": -5793323565999215699,
 	"m_actionList": [{
 		"cancelPrevious": false,
 		"m_backgroundColor": -14606047,
@@ -42,6 +42,21 @@
 		"m_isDisabled": false,
 		"m_isOrCondition": false
 	}, {
+		"childrenCollapsed": false,
+		"m_SIGUID": -6927824493542756914,
+		"m_classType": "IfConditionAction",
+		"m_constraintList": [{
+			"hasNewConfig": true,
+			"m_options": [false, true, false, false],
+			"m_SIGUID": -7846054256736800180,
+			"m_classType": "LocationModeConstraint",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		}],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
 		"m_state": 0,
 		"m_SIGUID": -7946152573412263949,
 		"m_classType": "SetLocationModeAction",
@@ -66,6 +81,12 @@
 		"useTextOnly": true,
 		"m_SIGUID": -7607440946419676796,
 		"m_classType": "ToastAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"m_SIGUID": -7201798370355404409,
+		"m_classType": "EndIfAction",
 		"m_constraintList": [],
 		"m_isDisabled": false,
 		"m_isOrCondition": false
