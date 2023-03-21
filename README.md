@@ -1,6 +1,6 @@
 # MacroDroid Macros
 
-Some useful utility macros for the [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) Android app.
+Some useful utility macro templates for the [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) Android app.
 
 |   | Name                                             | Description                                                                                                                                                                                                                           |
 |---|:-------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
