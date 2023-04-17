@@ -1,0 +1,94 @@
+{
+	"disabledTimestamp": 0,
+	"exportedActionBlocks": [],
+	"forceEvenIfNotEnabledTimestamp": 0,
+	"isActionBlock": false,
+	"isBeingImported": false,
+	"isClonedInstance": false,
+	"isFavourite": false,
+	"lastEditedTimestamp": 1681632371014,
+	"localVariables": [],
+	"m_GUID": -7712557709011585804,
+	"m_actionList": [{
+		"childrenCollapsed": false,
+		"m_SIGUID": -6984486935991251565,
+		"m_classType": "IfConditionAction",
+		"m_constraintList": [{
+			"equals": false,
+			"greaterThan": true,
+			"temperature": 35,
+			"m_SIGUID": -7569717487243988753,
+			"m_classType": "BatteryTemperatureConstraint",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		}],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"m_faded": false,
+		"m_imageResourceName": "not_icon_facebookmessenger",
+		"m_macroId": -99,
+		"m_optionName": "Battery Temperature ()",
+		"m_triggerGUID": -7575628913211147247,
+		"m_widgetLabel": "{battery_temp}°c",
+		"m_SIGUID": -7067543570292429422,
+		"m_classType": "ConfigureWidgetButtonAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"m_SIGUID": -7248758043987579490,
+		"m_classType": "ElseAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"m_faded": true,
+		"m_imageResourceName": "not_icon_facebookmessenger",
+		"m_macroId": -99,
+		"m_optionName": "Battery Temperature ()",
+		"m_triggerGUID": -7575628913211147247,
+		"m_widgetLabel": "{battery_temp}°c",
+		"m_SIGUID": -5372856688822045099,
+		"m_classType": "ConfigureWidgetButtonAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"m_SIGUID": -6509595219799977852,
+		"m_classType": "EndIfAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}],
+	"m_category": "Utilities",
+	"m_constraintList": [],
+	"m_description": "Widget for Home screen to display current battery temperature",
+	"m_descriptionOpen": true,
+	"m_enabled": true,
+	"m_excludeLog": false,
+	"m_headingColor": -11382190,
+	"m_isOrCondition": false,
+	"m_name": "Battery Temperature",
+	"m_triggerList": [{
+		"m_currentLabel": "40.9°c",
+		"m_imageId": 0,
+		"m_widgetLabel": "",
+		"m_widgetType": 4,
+		"m_SIGUID": -7575628913211147247,
+		"m_classType": "WidgetPressedTrigger",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
+		"decreasesTo": true,
+		"option": 1,
+		"temperature": 30,
+		"m_SIGUID": -4704868668477880853,
+		"m_classType": "BatteryTemperatureTrigger",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}]
+}
