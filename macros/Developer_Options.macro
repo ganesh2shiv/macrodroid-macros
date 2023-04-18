@@ -39,6 +39,17 @@
 		"m_isDisabled": false,
 		"m_isOrCondition": false
 	}, {
+		"settingString": "adb_enabled",
+		"tableOption": 2,
+		"useHelper": false,
+		"valueString": "1",
+		"valueType": 0,
+		"m_SIGUID": -8564302538436363947,
+		"m_classType": "SystemSettingAction",
+		"m_constraintList": [],
+		"m_isDisabled": false,
+		"m_isOrCondition": false
+	}, {
 		"m_SIGUID": -7853341034554043221,
 		"m_classType": "ElseAction",
 		"m_constraintList": [],
@@ -239,7 +250,7 @@
 	"m_description": "Widget for Home screen to launch developer options setting",
 	"m_descriptionOpen": true,
 	"m_enabled": true,
-	"m_excludeLog": false,
+	"m_excludeLog": true,
 	"m_headingColor": -11382190,
 	"m_isOrCondition": false,
 	"m_name": "Developer Options",

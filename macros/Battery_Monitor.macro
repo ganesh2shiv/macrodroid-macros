@@ -407,7 +407,7 @@
 	"m_description": "Voice alarm for battery LOW/FULL status",
 	"m_descriptionOpen": true,
 	"m_enabled": true,
-	"m_excludeLog": false,
+	"m_excludeLog": true,
 	"m_headingColor": 0,
 	"m_isOrCondition": false,
 	"m_name": "Battery Monitor",

@@ -44,7 +44,7 @@
 	"m_description": "Take photo if phone unlock fails and send SMS",
 	"m_descriptionOpen": true,
 	"m_enabled": true,
-	"m_excludeLog": false,
+	"m_excludeLog": true,
 	"m_headingColor": 0,
 	"m_isOrCondition": false,
 	"m_name": "Intruder Photo",
